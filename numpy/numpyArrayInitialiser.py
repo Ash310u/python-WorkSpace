@@ -1,7 +1,8 @@
 import numpy as np
 
 # 1. Using a Python list
-a = np.array([1, 2, 3])
+a = np.array([1, 2, 3], dtype=float)
+# a = np.array([1.0, 2.0, 3.0], int)
 print("Array from list:", a)
 
 # 2. Using a tuple
