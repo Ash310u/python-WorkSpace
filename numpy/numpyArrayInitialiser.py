@@ -33,6 +33,17 @@ print("Array of ones:", e)
 f = np.linspace(0, 1, 5)
 print("Array using linspace:", f)
 
+# 6.5. Using logspace
+# np.logspace(start, stop, num) creates an array of 'num' values spaced evenly on a log scale (base 10) between 10**start and 10**stop.
+# Here, it creates an array: [1.0, 10.0, 100.0, 1000.0]
+log_arr = np.logspace(0, 20, 5)
+print("Array using logspace:", log_arr)
+print("Array using logspace: ", "%.2f" % log_arr[0])
+print("Array using logspace: ", "%.2f" % log_arr[1])
+print("Array using logspace: ", "%.2f" % log_arr[2])
+print("Array using logspace: ", "%.2f" % log_arr[3])
+print("Array using logspace: ", "%.2f" % log_arr[4])
+
 # 7. Using empty
 # np.empty(shape) creates a new array of the given shape, without initializing the values.
 # Note: This creates an array with random values. It's not really empty—it contains random memory values.
