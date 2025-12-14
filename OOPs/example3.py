@@ -1,3 +1,4 @@
+# Inheritance
 # Create an ElectricCar class that inherits from the Car class has additional attributes
 
 from example2 import Car as CarBase
