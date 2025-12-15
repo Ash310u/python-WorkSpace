@@ -1,8 +1,8 @@
 # Class Inheritance and isinstance() Function
 # Demonstrate the use of isinstance() to check if my_tesla is an instance of Car and ElectricCar.
 
-from example5 import Car as CarBase
-from example5 import ElectricCar as ElectricCarBase
+from example2 import Car as CarBase
+from example3 import ElectricCar as ElectricCarBase
 
 if __name__ == "__main__":
     print("Example 9: Demonstrate the use of isinstance() to check if my_tesla is an instance of Car and ElectricCar.")
