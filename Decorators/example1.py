@@ -1,3 +1,4 @@
+# Write a decorator to measure the time taken by a function to execute
 import time
 
 def timer(func):
